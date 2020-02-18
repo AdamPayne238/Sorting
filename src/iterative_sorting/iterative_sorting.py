@@ -29,6 +29,7 @@ selection_sort(arr)
 def bubble_sort(arr):
     # 1. Compare current index and next index
     for i in range(0, len(arr) - 1):
+        # having a second loop allows this to have multiple passes until completion
         for j in range(0, len(arr) - 1):
             current_index = j
             next_index = current_index + 1
